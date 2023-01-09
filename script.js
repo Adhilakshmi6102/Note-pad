@@ -11,7 +11,7 @@ else
 {
 var e = fileContent.value;
 var c = document.createElement("a");
-c.download = fileName.value + ".pdf";
+c.download = fileName.value + ".txt";
 var t = new Blob([e], {
 type: "text/plain"
 });
